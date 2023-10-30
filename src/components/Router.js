@@ -4,8 +4,8 @@ import HomeMenu from './HomeMenu';
 import Home from './Home';
 import Series from './Series';
 import Personajes from './Personajes'
-import IntroducirPersonaje from './IntroducirPersonaje';
 import ModificarPersonaje from './ModificarPersonaje';
+import InsertarPersonaje from './InsertarPersonaje';
 
 export default class Router extends Component {
   render() {
@@ -26,7 +26,7 @@ export default class Router extends Component {
             <Route path="/Home" element={<Home/>}/>
             <Route path="/series/:idserie" element={<SeriesElement/>}/>
             <Route path="/series/Personajes/:idpersonaje" element={<PersonajesElement/>}/>
-            <Route path="/IntroducirPersonaje" element={<IntroducirPersonaje/>}/>
+            <Route path="/InsertarPersonaje" element={<InsertarPersonaje/>}/>
             <Route path="/ModificarPersonaje" element={<ModificarPersonaje/>}/>
         </Routes>
       </BrowserRouter>

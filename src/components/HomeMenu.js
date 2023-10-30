@@ -58,7 +58,7 @@ export default class HomeMenu extends Component {
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/IntroducirPersonaje">
+                  <NavLink className="nav-link" to="/InsertarPersonaje">
                     Insertar personaje
                   </NavLink>
                 </li>
