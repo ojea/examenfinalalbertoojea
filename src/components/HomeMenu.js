@@ -62,6 +62,11 @@ export default class HomeMenu extends Component {
                     Insertar personaje
                   </NavLink>
                 </li>
+                <li className="nav-item">
+                  <NavLink className="nav-link" to="/ModificarPersonaje">
+                    Modificar personaje
+                  </NavLink>
+                </li>
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"
